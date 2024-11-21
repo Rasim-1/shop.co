@@ -16,7 +16,7 @@ const Header = () => {
     <Link to={"/NewArrians"}>NewArrians</Link>
     <Link to={"/Brands"}>Brands</Link>
             </div>
-
+           <img className={s.burger} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBvJVY9J0u5f4eKb1CpggtpThzlSHCvLZ62w&s" alt="" />
             <input type="text" className={s.search} />
             <div className={s.box}>
                 <img src="/icon-1.svg" alt="" />
