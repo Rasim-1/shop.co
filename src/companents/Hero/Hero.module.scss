@@ -1,8 +1,11 @@
+.Hero {
+  background-color: #f2f1f0;
+}
+
 .wrapper{
 display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 20px;
-background-color: #f2f1f0;
 @media (max-width: 1200px) {
   grid-template-columns: 1fr;
 }

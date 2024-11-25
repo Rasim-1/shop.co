@@ -42,6 +42,10 @@ text-decoration: none;
     background-position:  20px;
     padding-left: 52px;
     
+    @media (max-width: 700px) {
+      background-color: #fff;
+      padding-left: 0;
+    }
 
 }
 .burger{
