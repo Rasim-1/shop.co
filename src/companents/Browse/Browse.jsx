@@ -14,13 +14,13 @@ const Browse = () => {
                     <h2  className={s.title}>Casual</h2>
                 </div>
                 <div className={s.card2}>
-                    <h2  className={s.title}>Casual</h2>
+                    <h2  className={s.title}>Formal</h2>
                 </div>
                 <div className={s.card3}>
-                    <h2  className={s.title}>Casual</h2>
+                    <h2  className={s.title}>Party</h2>
                 </div>
                 <div className={s.card4}>
-                    <h2  className={s.title}>Casual</h2>
+                    <h2  className={s.title}>Gym</h2>
                 </div>
             </div>
         </div>
