@@ -1,18 +1,24 @@
-import React from 'react'
-import Hero from '../companents/Hero/Hero'
-import Category from '../companents/Category/Category'
-import Browse from '../companents/Browse/Browse'
+import React from 'react';
+import Hero from '../components/Hero/Hero';
+import Brand from '../components/brands/Brand';
+import Category from '../components/category/Category';
+import Browse from '../components/browse/Browse';
+import Happy from '../components/Happy/Happy';
+import Stay from '../components/stay/Stay';
 
 const Home = () => {
   return (
-<>
+    <>
+     
+      <Hero />
+      <Brand/>
+      <Category/>
+      <Browse/>
+      <Happy/>
+      <Stay/>
+    
+    </>
+  );
+};
 
-<Hero/>
-<Category/>
-<Browse/>
-
-</>
-  )
-}
-
-export default Home
+export default Home;

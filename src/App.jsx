@@ -1,26 +1,21 @@
-import "./App.css"
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-
+import './App.css'
+import { Route, Router, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import NewArrians from './pages/NewArrians'
-import OnSale from './pages/OnSale'
-import Header from './companents/Header/Header'
+import Shop from './pages/Shop'
+import Header from './components/Header/Header'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
-<>
-<Header/>
-<Routes>
-  <Route path='/' element={<Home/>} />
-  <Route path='/NewArrians' element={<NewArrians/>} />
-  <Route path='/OnSale' element={<OnSale/>} />
-
-</Routes>
-
-
-
-</>
+    <>
+    <Header/>
+    <Routes>
+    <Route path='/' element={<Home/>} />
+    <Route path='/shop' element={<Shop/>} />
+    </Routes>
+    <Footer/>
+    </>
   )
 }
 
