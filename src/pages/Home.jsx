@@ -4,7 +4,7 @@ import Brand from '../components/brands/Brand';
 import Category from '../components/category/Category';
 import Browse from '../components/browse/Browse';
 import Happy from '../components/Happy/Happy';
-import Stay from '../components/stay/Stay';
+import Stays from '../components/Stays/Stays';
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <Category/>
       <Browse/>
       <Happy/>
-      <Stay/>
+      <Stays/>
     
     </>
   );

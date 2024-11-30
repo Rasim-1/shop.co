@@ -7,7 +7,7 @@ const Card = ({image, name='Soon...', rate='0', price='Нет в наличии'
     <div className={s.card}>
         <img src={image} alt="" />
         <h3>{name}</h3>
-        <img src="" alt="" />
+        {/* <img src="" alt="" /> */}
         <b>{price}</b>
 
 
